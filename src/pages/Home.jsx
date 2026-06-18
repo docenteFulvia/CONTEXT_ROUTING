@@ -9,6 +9,7 @@ import {AuthContext} from '../context/AuthContext';
 import {NavLink} from 'react-router';
 
 export default function Home() {
+  //commento per laura
   //Stesso context, stesso dato — senza props
   const {utente, login} = useContext(AuthContext);
 

@@ -28,6 +28,10 @@ nav {
   font-weight: 600;
   margin-right: auto;
 }
+
+.nav-logo a {
+  text-decoration: none;
+}
 .nav-links {
   display: flex;
   gap: 4px;
@@ -107,6 +111,7 @@ button {
   background: #faeeda;
   padding: 12px 16px;
   border-radius: 8px;
+  margin-bottom: 10px;
 }
 .msg-ospite a {
   color: #854f0b;
@@ -136,7 +141,19 @@ button {
   font-weight: 600;
   flex-shrink: 0;
 }
+
+.profilo-info {
+  background: #fff;
+  border: 1px solid #e2e0da;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+}
 .profilo-info p {
   margin-bottom: 6px;
   font-size: 14px;
+}
+
+.grassetto {
+  font-weight: bold;
 }
